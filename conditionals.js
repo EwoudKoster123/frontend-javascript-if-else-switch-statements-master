@@ -20,8 +20,8 @@ console.log('Is 10 ongelijk aan 11?', equalNumbers2);
 // ==========================================
 // 3. Declareer een variabele en sla daar in op of de woorden 'zoet' en 'sappig' hetzelfde zijn                // geeft false wanneer gelogd
 // ==========================================
-var zoet = "zoet";
-var sappig = "sappig";
+let zoet = "zoet";
+let sappig = "sappig";
 const equalNumbers3 = zoet == sappig;
 console.log('Is zoet gelijk aan sappig?', equalNumbers3);
 
@@ -30,7 +30,7 @@ console.log('Is zoet gelijk aan sappig?', equalNumbers3);
 // 4b. schrijf een script dat checkt of het rapportcijfer groter is dan 8.
 //     Als dat zo is, loggen we 'Cum laude!' in de console.                                                     // geeft 'Cum laude!' wanneer gelogd
 // ==========================================
-var grade = 9;
+let grade = 9;
 if (grade >= 8) {
     console.log("Cum laude!");
 } else {
